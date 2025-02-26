@@ -1,0 +1,14 @@
+[
+    {
+        "tarefa": "Estudar curso",
+        "completada": false
+    },
+    {
+        "tarefa": "Levar cachorro para passear",
+        "completada": false
+    },
+    {
+        "tarefa": "Lavar louça",
+        "completada": false
+    }
+]
