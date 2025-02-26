@@ -18,7 +18,7 @@ def carregar_tarefas():
             return []  # Retorna uma lista vazia se houver erro no JSON
 
 # Função para listar as tarefas carregadas do JSON
-def ver_tarefas():  # ❌ Removido o argumento 'tarefas'
+def ver_tarefas():  # Removido o argumento 'tarefas'
     tarefas = carregar_tarefas()  # Carrega as tarefas do arquivo JSON
     if not tarefas:
         print("\n📌 Nenhuma tarefa cadastrada!")
