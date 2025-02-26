@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "tarefa": "Estudar curso",
+        "completada": false
+    },
+    {
+        "tarefa": "Levar cachorro para passear",
+        "completada": false
+    },
+    {
+        "tarefa": "Lavar louça",
+        "completada": false
+    },
+    {
+        "tarefa": "Cobrar duplicatas em aberto",
+        "completada": false
+    },
+    {
+        "tarefa": "Beber agua",
+        "completada": false
+    }
+]

@@ -1,7 +1,7 @@
 import json
 import os
 
-TAREFAS_JSON = "data/task.json"
+TAREFAS_JSON = "projeto/services/data/task.json"
 
 # Função para carregar tarefas do JSON
 def carregar_tarefas():

@@ -3,7 +3,6 @@ from services.display_menu import exibir_menu
 from services.add_task import adicionar_tarefa
 from services.list_task import ver_tarefas
 
-
 # Lista que armazena as tarefas
 tarefas = []
 
