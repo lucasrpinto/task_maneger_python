@@ -2,6 +2,7 @@
 from services.display_menu import exibir_menu
 from services.add_task import adicionar_tarefa
 from services.list_task import ver_tarefas
+from services.update_task import atualizar_nome_tarefa
 
 # Lista que armazena as tarefas
 tarefas = []
@@ -22,6 +23,20 @@ while True:
 
   elif escolha == "2":
     ver_tarefas()
+  
+  elif escolha == "3":
+    ver_tarefas()  # Mostrar as tarefas antes da atualização
+    try:
+      indice = int(input("Qual tarefa deseja atualizar: ")) - 1
+      novo_nome = input("Digite o novo nome da tarefa: ").strip()
+
+      if indice < 0:
+        print("❌ Índice inválido! Digite um número válido.")
+      else:
+        atualizar_nome_tarefa(indice, novo_nome)
+    
+    except ValueError:
+      print("Entrada inválida! Digite um número.")
 
   elif escolha == "6":
     break
