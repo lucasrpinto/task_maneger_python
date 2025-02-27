@@ -1,8 +1,8 @@
 # Importacao das funcoes
-from services.display_menu import exibir_menu
-from services.add_task import adicionar_tarefa
-from services.list_task import ver_tarefas
-from services.update_task import atualizar_nome_tarefa
+from src.services.display_menu import exibir_menu
+from src.services.add_task import adicionar_tarefa
+from src.services.list_task import ver_tarefas
+from src.services.update_task import atualizar_nome_tarefa
 
 # Lista que armazena as tarefas
 tarefas = []

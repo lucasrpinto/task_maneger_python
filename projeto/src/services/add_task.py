@@ -1,8 +1,7 @@
 import json
 import os
-from services.list_task import carregar_tarefas
-
-TAREFAS_JSON = "projeto/services/data/task.json"
+from src.services.list_task import carregar_tarefas
+from src.data.local_data import TAREFAS_JSON
 
 # Criar a pasta `data/` se não existir
 if not os.path.exists("projeto/services/data"):

@@ -8,7 +8,7 @@
         "completada": false
     },
     {
-        "tarefa": "Lavar louça",
+        "tarefa": "Carregar mouse",
         "completada": false
     },
     {
@@ -17,6 +17,10 @@
     },
     {
         "tarefa": "Beber agua",
+        "completada": false
+    },
+    {
+        "tarefa": "Ir para academia amanha cedo",
         "completada": false
     }
 ]

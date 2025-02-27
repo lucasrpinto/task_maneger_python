@@ -1,7 +1,7 @@
+from src.data.local_data import TAREFAS_JSON
+
 import json
 import os
-
-TAREFAS_JSON = "projeto/services/data/task.json"
 
 # Função para carregar tarefas do JSON
 def carregar_tarefas():
