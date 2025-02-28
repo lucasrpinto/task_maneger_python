@@ -1,1 +1,0 @@
-TAREFAS_JSON = "projeto/src/data/task.json"

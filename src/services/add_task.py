@@ -4,8 +4,8 @@ from src.services.list_task import carregar_tarefas
 from src.data.local_data import TAREFAS_JSON
 
 # Criar a pasta `data/` se não existir
-if not os.path.exists("projeto/services/data"):
-    os.makedirs("projeto/services/data")
+if not os.path.exists(TAREFAS_JSON):
+    os.makedirs(TAREFAS_JSON)
 
 # Criar o arquivo JSON se não existir ou se estiver vazio
 if not os.path.exists(TAREFAS_JSON):

@@ -1,0 +1,1 @@
+TAREFAS_JSON = "src/data/task.json"

@@ -22,5 +22,9 @@
     {
         "tarefa": "Ir para academia amanha cedo",
         "completada": false
+    },
+    {
+        "tarefa": "ler 15 paginas do livro",
+        "completada": false
     }
 ]
