@@ -3,6 +3,7 @@ from src.services.display_menu import exibir_menu
 from src.services.add_task import adicionar_tarefa
 from src.services.list_task import ver_tarefas
 from src.services.update_task import atualizar_nome_tarefa
+from src.services.update_task import completar_tarefa
 
 # Lista que armazena as tarefas
 tarefas = []
@@ -37,6 +38,16 @@ while True:
     
     except ValueError:
       print("Entrada inválida! Digite um número.")
+
+  elif escolha == "4":
+    ver_tarefas()
+    try:
+      indice = int(input("Qual tarefa deseja completar: ")) - 1
+      completar_tarefa(indice)
+    except ValueError:
+      print("Entrada inválida! Digite um número.")
+      
+    
 
   elif escolha == "6":
     break

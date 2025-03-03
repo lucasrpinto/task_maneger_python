@@ -17,3 +17,16 @@ def atualizar_nome_tarefa( indice_tarefa, novo_nome):
     print(f"✅ Tarefa {indice_tarefa + 1} atualizada para '{novo_nome}' com sucesso!")
   else:
     print("❌ Índice inválido! A tarefa não existe.")
+
+
+def completar_tarefa( indice_tarefa ):
+  tarefas = carregar_tarefas()
+  
+  if 0 <= indice_tarefa < len(tarefas):
+    tarefas[indice_tarefa]["completada"] = True
+    salvar_tarefas(tarefas)
+    print(f"✅ Tarefa {indice_tarefa + 1} marcada como concluida!")
+  else:
+    print("❌ Índice inválido! A tarefa não existe.")
+
+
