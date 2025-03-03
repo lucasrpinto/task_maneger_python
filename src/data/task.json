@@ -8,10 +8,6 @@
         "completada": false
     },
     {
-        "tarefa": "Carregar mouse",
-        "completada": false
-    },
-    {
         "tarefa": "Cobrar duplicatas em aberto",
         "completada": false
     },
@@ -21,10 +17,6 @@
     },
     {
         "tarefa": "Ir para academia amanha cedo",
-        "completada": false
-    },
-    {
-        "tarefa": "ler 15 paginas do livro",
         "completada": false
     }
 ]

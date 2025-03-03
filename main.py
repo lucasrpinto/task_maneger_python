@@ -4,6 +4,7 @@ from src.services.add_task import adicionar_tarefa
 from src.services.list_task import ver_tarefas
 from src.services.update_task import atualizar_nome_tarefa
 from src.services.update_task import completar_tarefa
+from src.services.delete_task import excluir_tarefas
 
 # Lista que armazena as tarefas
 tarefas = []
@@ -46,6 +47,14 @@ while True:
       completar_tarefa(indice)
     except ValueError:
       print("Entrada inválida! Digite um número.")
+
+  elif escolha == "5":
+    ver_tarefas()
+    try:
+      indice = int(input("Digite a tarefa que deseja remover: ")) -1
+      excluir_tarefas(indice)
+    except ValueError:
+      print("❌ Entrada inválida! Digite um número válido.")
 
   elif escolha == "6":
     break

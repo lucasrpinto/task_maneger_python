@@ -2,7 +2,6 @@ from src.services.list_task import carregar_tarefas
 from src.data.local_data import TAREFAS_JSON
 
 import json
-import os
 
 def salvar_tarefas(tarefas):
   with open(TAREFAS_JSON, "w", encoding="utf-8") as arquivo:
