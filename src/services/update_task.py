@@ -18,7 +18,6 @@ def atualizar_nome_tarefa( indice_tarefa, novo_nome):
   else:
     print("❌ Índice inválido! A tarefa não existe.")
 
-
 def completar_tarefa( indice_tarefa ):
   tarefas = carregar_tarefas()
   

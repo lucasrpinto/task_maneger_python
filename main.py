@@ -46,8 +46,6 @@ while True:
       completar_tarefa(indice)
     except ValueError:
       print("Entrada inválida! Digite um número.")
-      
-    
 
   elif escolha == "6":
     break
